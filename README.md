@@ -26,6 +26,7 @@ flowchart LR
     ├── 01-fundamentos/        # Redes neuronales, retropropagación, funciones de pérdida
     ├── 02-datos/              # Dataset, etiquetado, preprocesamiento, aumento, desbalance
     ├── 03-arquitecturas/      # CNN, ResNet, EfficientNet, ViT, transfer learning
+    │   └── vision-transformer.md
     ├── 04-entrenamiento/      # Optimizadores, regularización, early stopping, hiperparámetros
     ├── 05-evaluacion/         # Métricas, validación cruzada, matriz de confusión
     │   ├── validacion-cruzada.md
@@ -45,7 +46,7 @@ Convenciones:
 |---|---|---|
 | 01 | Fundamentos | Perceptrón, MLP, funciones de activación, retropropagación, entropía cruzada, *softmax* |
 | 02 | Datos | Adquisición y etiquetado de imágenes, partición train/val/test, normalización, *data augmentation*, clases desbalanceadas |
-| 03 | Arquitecturas | Convolución y *pooling*, CNN, ResNet, EfficientNet, Vision Transformer, *transfer learning* y *fine-tuning* |
+| 03 | Arquitecturas | Convolución y *pooling*, CNN, ResNet, EfficientNet, [Vision Transformer (Swin-Tiny / DeiT-Small)](teoria/03-arquitecturas/vision-transformer.md), *transfer learning* y *fine-tuning* |
 | 04 | Entrenamiento | SGD, Adam/AdamW, tasa de aprendizaje y *schedulers*, *weight decay*, *dropout*, *label smoothing*, *early stopping* |
 | 05 | Evaluación | [Validación cruzada (K-fold)](teoria/05-evaluacion/validacion-cruzada.md), exactitud, precisión, *recall*, F1 macro, matriz de confusión, ROC-AUC |
 | 06 | Interpretabilidad | Grad-CAM, análisis de errores, sesgos del dataset, uso responsable en veterinaria |
